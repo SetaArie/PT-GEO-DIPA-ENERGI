@@ -1,7 +1,7 @@
 (function(){
 AOS.init({duration:800,once:true});
 document.querySelectorAll('.navbar .nav-link').forEach(function(a){a.dataset.t=a.textContent});
-// Pesan dikirim ke email lewat layanan FormSubmit (tanpa server sendiri).
+
 var TUJUAN='abdillahsiddiq660@gmail.com';
 var f=document.getElementById('kontakForm'),btn=document.getElementById('kirim'),out=document.getElementById('hasil');
 function tampil(tipe,teks){out.className='alert alert-'+tipe+' mb-0';out.textContent=teks}
